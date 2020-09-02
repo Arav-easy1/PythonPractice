@@ -37,7 +37,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="C:\Users\ARAV\PycharmProjects\HelloPycharm\venv"
+VIRTUAL_ENV="C:\MYNAMEISDORAV\Practice\20200901-Python\venv"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"
