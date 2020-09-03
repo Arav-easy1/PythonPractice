@@ -5,22 +5,23 @@
 # 클래스의 멤버: 클래스 내부에 포함되는 변수
 # 클래스의 함수: 클래스 내부에 포함되는 함수. 메소드라고 부름.
 
-class Car:
-    # 클래스의 생성자
-    def __init__(self, name, color):
-        self.name = name # 클래스의 멤버
-        self.color = color # 클래스의 멤버
-    # 클래스 소멸자
-    def __del__(self):
-        print("인스턴스를 소멸시킵니다.")
-    # 클래스의 메소드
-    def show_info(self):
-        print("이름: ", self.name, "/ 색상: ", self.color)
-    # Setter 메소드
-    def set_name(self, name):
+# 상속: 다른 클래스의 멤버 변수와 메소드를 물려 받아 사용하는 기법
+# 부모와 자식 관계가 존재한다
+# 자식 클래스: 부모 클래스를 상속 받은 클래스
+class Unit:
+    def __init__(self, name, power):
         self.name = name
+        self.power = power
+    def attack(self):
+        print(self.name, "이(가) 공격을 수행합니다. [전투력: ", self.power, "]")
 
-car1 = Car("소나타", "빨간색")
-car1.set_name("xc90")
-car1.show_info()
-del car1
+class Monster(Unit):
+    def __init__(self, name, power, type):
+        self.name = name
+        self.power = power
+        self.type = type
+    def show_info(self):
+        print("몬스터 이름: ", self.name, "/ 몬스터 종류: ", self.type)
+monster = Monster("슬라임", 10, "초급")
+monster.attack()
+monster.show_info()
