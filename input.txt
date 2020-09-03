@@ -1,3 +1,2 @@
-안녕하세요?
-전 아라브에요.
-세 번째 줄에는 무슨 말을 써야하나?
+Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
