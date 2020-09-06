@@ -63,13 +63,51 @@
     # num3 = int(answer[2])
     # result = num1 if num1 < num2 and num1 < num3 else (num2 if num2 < num1 and num2 < num3 else num3)
     # print(result)
+# 1076 영문자 1개 입력되고, 그 문자까지의 알파벳 순서대로 출력하기
+    # answer = ord(input())
+    # a = ord('a')
+    # for i in range(a, answer + 1):
+    #     print(chr(i))
+# 1082 16진수 구구단
+    # ip = input()
+    # answer = int(ip, 16)
+    # for i in range(1, 16):
+    #     print("%s*%X=%X" %(ip, i, (answer * i)))
+# 1093 출석번호 부른 횟수, 부른 번호 순서로 입력값이 들어왔을때, 각 번호별로 출석 불린 횟수 출력
+    # my_list = []
+    # for i in range(0, 23):
+    #     my_list.append(0)
+    # answer = int(input())
+    # call_list = input().split()
+    # for i in call_list:
+    #     my_list[int(i)-1] += 1
+    # call_list = list(map(str, my_list))
+    # print(" ".join(call_list))
+# 1099 개미가 먹이를 찾아 지나가는 길 표시 (2차원 배열)
 
-answer = int(input())
-if answer <= 100 and answer >= 90:
-    print("A")
-elif answer < 90 and answer >= 70:
-    print("B")
-elif answer < 70 and answer >= 40:
-    print("C")
-elif answer < 40 and answer >= 0:
-    print("D")
+    # pan = []
+    # for i in range(0, 10):
+    #     pan.append([])
+    #     for j in range(0, 10):
+    #         pan[i].append("0")
+    #
+    # for i in range(0, len(pan)):
+    #     pan[i] = input().split()
+    #
+    #     pan_x = 1
+    #     pan_y = 1
+    # while 1:
+    #     if pan[pan_x][pan_y] == '2':
+    #         pan[pan_x][pan_y] = '9'
+    #         break
+    #     else:
+    #         pan[pan_x][pan_y] = '9'
+    #         if pan[pan_x][pan_y + 1] == '1':    # 오른쪽 막힘
+    #             if pan[pan_x + 1][pan_y] == '1':    # 아래도 막힘
+    #                 break
+    #             pan_x += 1
+    #         else:
+    #             pan_y += 1
+    #
+    # for i in range(0, len(pan)):
+    #     print(" ".join(pan[i]))
