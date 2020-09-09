@@ -20,8 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="38a7e278-809b-4c20-aa8f-6dab3dc4242f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/BJ_Greedy.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/for_codingTest.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BJ_Greedy.py" beforeDir="false" afterPath="$PROJECT_DIR$/BJ_Greedy.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +53,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="Python.BJ_Greedy">
+  <component name="RunManager" selected="Python.for_codingTest">
     <configuration name="BJ_Greedy" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="20200901-Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -116,7 +117,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="file_io" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="for_codingTest" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="20200901-Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -128,7 +129,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/file_io.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/for_codingTest.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -160,11 +161,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.for_codingTest" />
         <item itemvalue="Python.BJ_Greedy" />
         <item itemvalue="Python.codeup" />
         <item itemvalue="Python.test2" />
         <item itemvalue="Python.Test" />
-        <item itemvalue="Python.file_io" />
       </list>
     </recent_temporary>
   </component>
@@ -218,42 +219,42 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="739" y="266" key="FileChooserDialogImpl/1920.74.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1599050673279" />
-    <state width="1899" height="215" key="GridCell.Tab.0.bottom" timestamp="1599414232986">
+    <state width="1899" height="215" key="GridCell.Tab.0.bottom" timestamp="1599671444549">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1899" height="215" key="GridCell.Tab.0.bottom/1920.74.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1599414232986" />
+    <state width="1899" height="215" key="GridCell.Tab.0.bottom/1920.74.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1599671444549" />
     <state width="1345" height="208" key="GridCell.Tab.0.bottom/1920.74.1366.738/0.0.1920.1050@1920.74.1366.738" timestamp="1599385112583" />
-    <state width="1899" height="215" key="GridCell.Tab.0.center" timestamp="1599414232985">
+    <state width="1899" height="215" key="GridCell.Tab.0.center" timestamp="1599671444549">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1899" height="215" key="GridCell.Tab.0.center/1920.74.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1599414232985" />
+    <state width="1899" height="215" key="GridCell.Tab.0.center/1920.74.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1599671444549" />
     <state width="1345" height="208" key="GridCell.Tab.0.center/1920.74.1366.738/0.0.1920.1050@1920.74.1366.738" timestamp="1599385112583" />
-    <state width="1899" height="215" key="GridCell.Tab.0.left" timestamp="1599414232985">
+    <state width="1899" height="215" key="GridCell.Tab.0.left" timestamp="1599671444549">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1899" height="215" key="GridCell.Tab.0.left/1920.74.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1599414232985" />
+    <state width="1899" height="215" key="GridCell.Tab.0.left/1920.74.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1599671444549" />
     <state width="1345" height="208" key="GridCell.Tab.0.left/1920.74.1366.738/0.0.1920.1050@1920.74.1366.738" timestamp="1599385112583" />
-    <state width="1899" height="215" key="GridCell.Tab.0.right" timestamp="1599414232985">
+    <state width="1899" height="215" key="GridCell.Tab.0.right" timestamp="1599671444549">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1899" height="215" key="GridCell.Tab.0.right/1920.74.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1599414232985" />
+    <state width="1899" height="215" key="GridCell.Tab.0.right/1920.74.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1599671444549" />
     <state width="1345" height="208" key="GridCell.Tab.0.right/1920.74.1366.738/0.0.1920.1050@1920.74.1366.738" timestamp="1599385112583" />
-    <state width="1899" height="352" key="GridCell.Tab.1.bottom" timestamp="1599412431801">
+    <state width="1899" height="352" key="GridCell.Tab.1.bottom" timestamp="1599414441681">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1899" height="352" key="GridCell.Tab.1.bottom/1920.74.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1599412431801" />
-    <state width="1899" height="352" key="GridCell.Tab.1.center" timestamp="1599412431801">
+    <state width="1899" height="352" key="GridCell.Tab.1.bottom/1920.74.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1599414441681" />
+    <state width="1899" height="352" key="GridCell.Tab.1.center" timestamp="1599414441681">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1899" height="352" key="GridCell.Tab.1.center/1920.74.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1599412431801" />
-    <state width="1899" height="352" key="GridCell.Tab.1.left" timestamp="1599412431800">
+    <state width="1899" height="352" key="GridCell.Tab.1.center/1920.74.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1599414441681" />
+    <state width="1899" height="352" key="GridCell.Tab.1.left" timestamp="1599414441681">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1899" height="352" key="GridCell.Tab.1.left/1920.74.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1599412431800" />
-    <state width="1899" height="352" key="GridCell.Tab.1.right" timestamp="1599412431801">
+    <state width="1899" height="352" key="GridCell.Tab.1.left/1920.74.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1599414441681" />
+    <state width="1899" height="352" key="GridCell.Tab.1.right" timestamp="1599414441681">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1899" height="352" key="GridCell.Tab.1.right/1920.74.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1599412431801" />
+    <state width="1899" height="352" key="GridCell.Tab.1.right/1920.74.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1599414441681" />
     <state x="461" y="169" key="SettingsEditor" timestamp="1599144123951">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
