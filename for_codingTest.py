@@ -421,11 +421,85 @@
     # print(input_data)
 
 # p197 부품 찾기
+    # n = int(input())
+    # parts = list(map(int, input().split()))
+    # parts.sort()
+    # m = int(input())
+    # order = list(map(int, input().split()))
+    # def bs(array, target, start, end):
+    #     if start > end:
+    #         return None
+    #     mid = (start + end) // 2
+    #     if array[mid] == target:
+    #         return mid
+    #     elif array[mid] < target:
+    #         return bs(array, target, mid + 1, end)
+    #     else:
+    #         return bs(array, target, start, mid - 1)
+    # for i in order:
+    #     yesOrNo = bs(parts, i, 0, n - 1)
+    #     if yesOrNo != None:
+    #         print('yes', end=" ")
+    #     else:
+    #         print("no", end=" ")
 
-
+# p201 떡볶이 떡 만들기
+    # n, m = map(int, input().split())
+    # ddeoks = list(map(int, input().split()))
+    #
+    # start = 0
+    # end = max(ddeoks)
+    #
+    # result = 0
+    # while start <= end:
+    #     total = 0
+    #     mid = (start + end) // 2
+    #     for i in ddeoks:
+    #         if i > mid:
+    #             total += i - mid
+    #     if total < m:
+    #         end = mid - 1
+    #     else:
+    #         result = mid
+    #         start = mid + 1
+    # print(result)
 
 import time
 start_time = time.time()    # 측정 시작
+# 피보나치
+    # def fibo(x):
+    #     if x == 1 or x == 2:
+    #         return 1
+    #     return fibo(x - 1) + fibo(x - 2)
+    # print(fibo(35))
+    # time:  3.6414012908935547
+
+# 다이나믹 프로그래밍 : 탑다운
+    # d = [0] * 100
+    # def fibo(x):
+    #     if x == 1 or x == 2:
+    #         return 1
+    #     if d[x] != 0:
+    #         return d[x]
+    #     d[x] = fibo(x - 1) + fibo(x - 2)
+    #     return d[x]
+    # print(fibo(99))
+
+# p217 1로 만들기
+    # x = int(input())
+    #
+    # d = [0] * 30001
+    #
+    # for i in range(2, x + 1):
+    #     d[i] = d[i - 1] + 1
+    #     if i % 2 == 0:
+    #         d[i] = min(d[i], d[i // 2] + 1)
+    #     if i % 3 == 0:
+    #         d[i] = min(d[i], d[i // 3] + 1)
+    #     if i % 5 == 0:
+    #         d[i] = min(d[i], d[i // 5] + 1)
+    # print(d[x])
+
 
 end_time = time.time()      # 측정 종료
 print("time: ", end_time - start_time)  # 수행 시간 출력
